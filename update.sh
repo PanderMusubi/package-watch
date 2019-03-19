@@ -3,7 +3,7 @@ rm -f Sources* urls.log
 
 # download from Debian
 dis=debian
-for rel in testing jessie
+for rel in testing stretch
 do
     for rep in base updates security backports
     do
@@ -35,7 +35,7 @@ done
 
 # download from Raspbian
 dis=raspbian
-for rel in testing jessie
+for rel in testing stretch
 do
     for rep in base
     do
@@ -60,7 +60,7 @@ do
     done
 done
 dis=raspberrypi
-for rel in jessie
+for rel in stretch
 do
     for rep in base
     do
@@ -87,7 +87,7 @@ done
 
 # download from Ubuntu
 dis=ubuntu
-for rel in devel xenial
+for rel in devel cosmic
 do
     for rep in base updates security backports
     do

@@ -8,15 +8,15 @@
 
 #gradle
 
-#hunspell
-#python3-hunspell
+hunspell
+python3-hunspell
 #libreoffice-lightproof-en
 #libreoffice-core
 #hunspell-en-us
 #hunspell-en-gb
 #myspell-nl
-#python3-enchant
-#enchant
+python3-enchant
+enchant
 #python3-natsort
 #python3-nltk
 
@@ -33,15 +33,15 @@
 
 #libjs-jquery-mobile
 
-pep8
-python3-pep8-naming
+#pep8
+#python3-pep8-naming
 ##python3-pep8
 ##python3-pyflakes
-python3-mccabe
-pyflakes3
+#python3-mccabe
+#pyflakes3
 #python3-flake8
-pylint3
-pymetrics
+#pylint3
+#pymetrics
 
 #python3-isoweek
 #python3-lxml
